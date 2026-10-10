@@ -21,9 +21,7 @@
 #include "xwinsystemwidget.h"
 #include "ui_xwinsystemwidget.h"
 
-XWinSystemWidget::XWinSystemWidget(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::XWinSystemWidget)
+XWinSystemWidget::XWinSystemWidget(QWidget *parent) : QWidget(parent), ui(new Ui::XWinSystemWidget)
 {
     ui->setupUi(this);
 }

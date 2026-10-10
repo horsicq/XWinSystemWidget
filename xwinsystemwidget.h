@@ -27,8 +27,7 @@ namespace Ui {
 class XWinSystemWidget;
 }
 
-class XWinSystemWidget : public QWidget
-{
+class XWinSystemWidget : public QWidget {
     Q_OBJECT
 
 public:
@@ -39,4 +38,4 @@ private:
     Ui::XWinSystemWidget *ui;
 };
 
-#endif // XWINSYSTEMWIDGET_H
+#endif  // XWINSYSTEMWIDGET_H
